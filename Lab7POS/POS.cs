@@ -11,7 +11,7 @@ namespace Lab7POS
             plata.Introduce();
             plata.EfectueazaPlata();
             plata.Extrage();
-            Console.WriteLine($"Plata contact-full in valoare de {suma} a fost efectuata.");
+            Console.WriteLine($"Plata contactfull in valoare de {suma} a fost efectuata.");
         }
 
         public void PlatesteContactless(IPlataContactless plata, decimal suma)

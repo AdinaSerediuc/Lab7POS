@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DC0CBE6B-0776-4154-9476-851498932C2C}</ProjectGuid>
+    <ProjectGuid>{7017C899-2E92-4568-AC28-01B995B41C47}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab7POS</RootNamespace>
-    <AssemblyName>Lab7POS</AssemblyName>
+    <RootNamespace>Lab7CasaDeMarcat</RootNamespace>
+    <AssemblyName>Lab7CasaDeMarcat</AssemblyName>
     <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -37,17 +37,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CardClasic.cs" />
-    <Compile Include="CardContactless.cs" />
-    <Compile Include="CasaDeMarcat.cs" />
     <Compile Include="IComunicarePOS.cs" />
-    <Compile Include="IPlataContactFull.cs" />
-    <Compile Include="IplataContactless.cs" />
-    <Compile Include="POS.cs" />
+    <Compile Include="POS2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PunctVanzare.cs" />
-    <Compile Include="TelefonContactless.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
